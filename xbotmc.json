@@ -1,0 +1,19 @@
+{
+    "name": "XBotMC",
+    "version": "0.2",
+    "author": "Christoffer Sjobergsson",
+    "enabled": 1,
+    "pypi-url": "https://pypi.python.org/pypi/lisa-plugin-XBotMC",
+    "github-url": "https://raw.githubusercontent.com/Christoffer Sjöbergsson/LISA-PLUGINS-XBotMC/master/lisa/plugins/XBotMC/xbotmc.json",
+    "description": [
+        {"lang": "en", "description": "LISA plugin to control XBMC"}
+    ],
+    "lang": ["en"],
+    "configuration": {
+        "intents": {
+            "xbotmc_test": {
+                "method": "xbotmcTest"
+            }
+        }
+    }
+}
